@@ -1,6 +1,6 @@
 import React from "react";
 import { NavigationContainer } from '@react-navigation/native';
-import StackNav from "./navigation/stackNav";
+import StackNav from "./navigation/StackNavigation";
 import { View,SafeAreaView,Platform,StatusBar } from "react-native";
 
 
@@ -14,4 +14,3 @@ export default function App() {
     </View>
   );
 }
-
